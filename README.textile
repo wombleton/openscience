@@ -1,0 +1,29 @@
+h1. Open Science Project
+
+h2. Data
+
+Example data files can be found at "this Github repository.":https://github.com/enspiral/open-source-science-data
+
+h2. Basic Outline
+
+h3. Prototype
+
+* User can register and point to their Github repository
+* Server clones repository and indexes content
+* User can search across index for article
+* Javascript viewer that can render an XML article - given a url that lives on Github
+
+h3. Editing
+
+* User can make amendments to an article
+** Saved on the server
+* User can publish amendments
+** Pushes to Git
+* User can initiate a pull request
+** Our server tracks pull requests, don't use Githubs API
+
+h3. Interaction
+
+* User can comment on an article
+* User can comment on amendment
+* User can comment on pull request
